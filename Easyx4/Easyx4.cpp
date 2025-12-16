@@ -66,8 +66,12 @@ int main() {
 
 	setlinestyle(PS_SOLID, 5);
 	setlinecolor(RGB(51, 34, 8));
+	// 左边的胡须
 	line(400,420,370,450);
+	line(400,420,360,430);
+	// 右边的胡须
 	line(400,420,430,450);
+	line(400,420,440,430);
 
 	getchar();
 	closegraph();
