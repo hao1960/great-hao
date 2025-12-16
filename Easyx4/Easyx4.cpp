@@ -72,4 +72,5 @@ int main() {
 	getchar();
 	closegraph();
 	return 0;
+	//用于git使用学习的测试注释
 }
